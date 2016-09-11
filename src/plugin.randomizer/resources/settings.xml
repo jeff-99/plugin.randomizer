@@ -8,6 +8,6 @@
   <category label="JSON RPC settings">
       <setting default="kodi" id="user" label="Username" type="text" />
       <setting default="None" id="password" label="Password" type="text"/>
-      <setting default="localhost" id="url" label="host" type="text" />
+      <setting default="http://localhost:8080/jsonrpc" id="url" label="JSON-RPC url" type="text" />
  </category>
 </settings>
