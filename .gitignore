@@ -1,0 +1,6 @@
+config.json
+node_modules/
+venv/
+bin/*
+examples*
+.idea*

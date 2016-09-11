@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.randomizer" name="Randomizer" version="0.0.1" provider-name="Jeffrey Slort">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="xbmc.gui" version="5.10.0"/>
+    <import addon="xbmc.json" version="6.32.4"/>
+    <import addon="xbmc.metadata" version="2.1.0"/>
+    <import addon="xbmc.addon" version="16.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Random episode selector</summary>
+    <description lang="en_gb"></description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>

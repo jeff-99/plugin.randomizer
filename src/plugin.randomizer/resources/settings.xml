@@ -1,0 +1,13 @@
+<settings>
+  <category label="Scoring methods">
+    <setting default="true" id="randomize" label="Randomize" type="bool"/>
+    <setting default="true" id="playcount" label="Least played higher rank" type="bool" />
+    <setting default="true" id="last_viewed" label="Longest not seen" type="bool" />
+  </category>
+
+  <category label="JSON RPC settings">
+      <setting default="kodi" id="user" label="Username" type="text" />
+      <setting default="None" id="password" label="Password" type="text"/>
+      <setting default="localhost" id="url" label="host" type="text" />
+ </category>
+</settings>
