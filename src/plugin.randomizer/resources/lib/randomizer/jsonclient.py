@@ -56,3 +56,11 @@ class VideoLibraryClient():
             params["season"] = int(season)
 
         return self.request("VideoLibrary.GetEpisodes", params)
+
+    def get_episode(self, episode_id):
+        params = {
+            "episodeid": int(episode_id),
+            "properties": ["title","file"]
+        }
+
+        return self.request("VideoLibrary.GetEpisodeDetails", params)
